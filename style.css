@@ -12,6 +12,7 @@
   justify-content: space-around;
   padding: 20px;
   background-color: #343a40;
+  width: 100%;
 }
 
 a {
@@ -39,10 +40,12 @@ li a:hover {
 
 button {
   padding: 9px 25px;
-  border-color: white;
+  border-color: rgb(7, 104, 104);
   border-radius: 15px;
+  background-color: transparent;
+  color: white;
 }
 
 button:hover {
-  background-color: rgb(23, 177, 177);
+  border-color: rgb(23, 177, 177);
 }
